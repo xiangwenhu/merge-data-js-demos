@@ -1,4 +1,5 @@
-import { mergeArrayByKeyHOC } from "merge-data-js";
+// import { mergeArrayByKeyHOC } from "merge-data-js";
+import mergeArrayByKeyHOC from "merge-data-js/mergeArrayByKeyHOC";
 
 const arr1 = [{
     id: 1,

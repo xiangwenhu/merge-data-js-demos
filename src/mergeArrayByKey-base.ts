@@ -1,4 +1,7 @@
-import { mergeArrayByKey } from "merge-data-js";
+// import { mergeArrayByKey } from "merge-data-js";
+import { EnumTraverseMode } from "merge-data-js";
+import  mergeArrayByKey  from "merge-data-js/mergeArrayByKey";
+
 
 const symbolUid = Symbol.for("uid");
 const users = Array.from({ length: 1 }, (val, index) => {
@@ -30,6 +33,7 @@ const result = mergeArrayByKey(users, scores, {
     targetKey: "deepKey.uid",
     enableLog: false,
     newItem: false,
+    mode: EnumTraverseMode.Backward,
     sourceKeyMapping: {
         "score": "data.score",
         "comments": "data.comments",

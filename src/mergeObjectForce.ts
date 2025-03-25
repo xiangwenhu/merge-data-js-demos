@@ -1,4 +1,5 @@
-import { mergeObjectForce } from "merge-data-js"
+// import { mergeObjectForce } from "merge-data-js"
+import mergeObjectForce from "merge-data-js/mergeObjectForce"
 
 const object1: any = {
     a: 'a'

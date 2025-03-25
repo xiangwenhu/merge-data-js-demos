@@ -1,4 +1,5 @@
-import { mergeObject } from "merge-data-js"
+// import { mergeObject } from "merge-data-js"
+import mergeObject from "merge-data-js/mergeObject"
 
 const symbolName = Symbol.for("name");
 

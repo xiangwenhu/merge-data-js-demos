@@ -1,4 +1,5 @@
 import { mergeArray } from "merge-data-js";
+// import  mergeArray  from "merge-data-js/mergeArray";
 
 const arr1 = [{
     idx: 1,

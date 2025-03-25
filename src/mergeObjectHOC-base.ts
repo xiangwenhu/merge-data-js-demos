@@ -1,4 +1,5 @@
 import { mergeObjectHOC } from "merge-data-js";
+// import mergeObjectHOC from "merge-data-js/mergeObjectHOC"
 
 const object1: any = {
     a: 'a'
